@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.profile-container{
+
+}
+@media screen and (max-width: 450px) {
+
+  .profile-container {
+    width: 100%;
+    flex-direction: column;
+  }
+ .loginInfo{
+   width: 100%;
+   display: inline-block;
+   background-color: dodgerblue;
+   visibility: hidden;
+
+ }
+
+ .loginData{
+   width: 100%;
+   background-color: white;
+ }
+}
