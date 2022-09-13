@@ -48,7 +48,7 @@ const Login = () => {
     else {
         return(
             <div  style={{  width:"100%", display:"inline-flex"}}>
-            <div className="loginData" style={{ backgroundColor:"lightgray",textAlign:"center", marginTop:"30px",border:"2px solid black", width:"100%"}}>
+            <div className="loginData" style={{ backgroundColor:"white",textAlign:"center", marginTop:"30px",border:"2px solid black", width:"100%"}}>
                 <DialogTitle >Login </DialogTitle>
                     <TextField autoFocus fullWidth margin="normal"
                         name="username"
@@ -78,13 +78,13 @@ const Login = () => {
 
                 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
-        <div className="loginInfo" style={{textAlign:"center",fontSize:"3em",width:"100%",marginTop:"18px", fontWeight:"700",position:"relative", color: "white"}}>
-            <hr></hr>
-            Welcome to our login page !
-            <hr></hr>
+        <div className="loginInfo" style={{textAlign:"center",fontSize:"2em",width:"100%",marginTop:"18px", fontWeight:"700",position:"relative", color: "white"}}>
+            <div className="welcome-login" style={{padding:"10px", backgroundColor:"lightgrey", color:"black", marginTop:"12px"}} >
+            Welcome to our login page
+            </div>
             <br/><br/>
             <img src={CarImage} className="my-picture" alt="my picture"
-                 style={{ padding: "15px", width: "50%"}}/>
+                 style={{ padding: "15px", width: "100%"}}/>
         </div>
             </div>
         );

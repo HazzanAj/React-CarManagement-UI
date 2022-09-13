@@ -8,7 +8,7 @@ import Contact from "../ContactComponent/Contact";
 function Header() {
     return (
         <BrowserRouter>
-            <header style={{backgroundColor:"#203239",}}>
+            <header style={{backgroundColor:"black", }}>
 
                 <nav style={{display: "inline-flex", justifyContent:"center",marginTop: "15px" ,  width:"100%",  margin: "5px",}}>
                     <Link to="/">
@@ -24,6 +24,9 @@ function Header() {
                                         <li><a className="dropdown-item" href="#">Cost Estimate</a></li>
                                         <li><h5 className="dropdown-header">Lorry Hire</h5></li>
                                         <li><a className="dropdown-item" href="#">Car Repairer</a></li>
+                                        <Link to="/login" >
+                                        <li ><a  className="dropdown-item"style={{backgroundColor:"green", color:"white"}}  >Login</a></li>
+                                        </Link>{''}
                                     </ul>
                                 </div>
                             </div>
